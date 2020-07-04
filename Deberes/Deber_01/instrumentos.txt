@@ -1,0 +1,31 @@
+
+Bateria
+	Marca: Jackson
+	Modelo: JS12
+	Color: Negro
+	Precio: 850
+	Peso: 25.0
+Guitarra
+	Marca: Jackson
+	Modelo: JS12
+	Color: Negro
+	Precio: 850
+	Peso: 25.0
+Piano
+	Marca: Jackson
+	Modelo: JS12
+	Color: Negro
+	Precio: 850
+	Peso: 25.0
+Bajo
+	Marca: Jackson
+	Modelo: JS12
+	Color: Negro
+	Precio: 850
+	Peso: 25.0
+Saxofon
+	Marca: Premier
+	Modelo: SP12
+	Color: Dorado
+	Precio: 150
+	Peso: 12.3

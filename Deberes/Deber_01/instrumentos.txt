@@ -1,0 +1,19 @@
+
+Piano
+Marca: Casio
+Modelo: CS
+Color: Plomo
+Precio: 400
+Peso: 12.50
+Bajo
+Marca: Fender
+Modelo: FD
+Color: Blanco
+Precio: 150
+Peso: 10.5
+Guitarra
+Marca: Fender
+Modelo: FD
+Color: Blanco
+Precio: 150
+Peso: 10.5

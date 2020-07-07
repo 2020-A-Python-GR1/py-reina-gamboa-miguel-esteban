@@ -11,9 +11,15 @@ Modelo: FD
 Color: Blanco
 Precio: 150
 Peso: 10.5
-Guitarra
+Ukelele
 Marca: Fender
-Modelo: FD
-Color: Blanco
-Precio: 150
-Peso: 10.5
+Modelo: VF150
+Color: Concho de vino
+Precio: 150.00
+Peso: 12.4
+Saxofon
+Marca: Premier
+Modelo: SF300
+Color: Dorado
+Precio: 250.00
+Peso: 25

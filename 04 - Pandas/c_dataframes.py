@@ -35,4 +35,6 @@ datos_miguel = serie_peso['Miguel']
 print(serie_peso)
 print(datos_miguel)
 
-df1.index = ['']
+df1.index = ['Miguel', 'Esteban']
+df1.index = ['Reina', 'Gamboa']
+df1.columns = ['A', 'B', 'C', 'D', 'E']

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrapy</title>
+    <style>
+        /*
+        ID
+        # + nombreID
+        */
+        #titulo-uno{
+            background-color: cadetblue;
+        }
+        /*
+        NOMBRE-ETIQUETA
+        nombre-etiqueta
+        */
+        h1{
+            background-color: darkcyan;
+        }
+        body{
+            color: brown;
+            background-color: cornsilk;
+        }
+        p{
+            background-color: blue;
+        }
+        /*
+        Clase
+        . + nombre-clase
+        */
+        .fondo-amarillo{
+            background-color: yellow;
+        }
+        .fondo-rojo{
+            background-color: red;
+        }
+        .fondo-verde{
+            background-color: green;
+        }
+        /*
+        JERARQUIA
+        STYLE>ID>>CLASE>ETIQUETA
+        Último definido>anterior definido
+        */
+        /*
+        Etiqueta dentro de otra etiqueta
+        */
+        body>ul>li>p{
+            background-color: pink;
+        }
+        li>p{
+            background-color: violet;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="titulo-uno">Título</h1>
+    <h1>Otro Título</h1>
+    <h1 class="fondo-rojo">Tercer título</h1>
+    <p>Parrafo uno</p>
+    <p
+        class="fondo-amarillo"
+        style="background-color: black;"
+        id="titulo-uno"
+    >Parrafo dos</p>
+    <p class="fondo-rojo">Parrafo tres</p>
+    <ul>
+        <li>Uno</li>
+        <li><p>Dos</p></li>
+        <li>Tres</li>
+    </ul>
+    <li><p>Fuera de ul</p></li>
+</body>
+</html>

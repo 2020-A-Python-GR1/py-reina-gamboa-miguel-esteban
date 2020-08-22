@@ -50,8 +50,14 @@
         body>ul>li>p{
             background-color: pink;
         }
-        li>p{
+        li>p.epn.uno{
             background-color: violet;
+        }
+        li>p.epn{
+            background-color: red;
+        }
+        body>ul>li>p{
+            background-color: salmon;
         }
     </style>
 </head>
@@ -67,9 +73,11 @@
     >Parrafo dos</p>
     <p class="fondo-rojo">Parrafo tres</p>
     <ul>
+        <li class="epn uno"><p>Cero</p></li>
         <li>Uno</li>
         <li><p>Dos</p></li>
         <li>Tres</li>
+        <li class="epn"><p>Cuatro</p></li>
     </ul>
     <li><p>Fuera de ul</p></li>
 </body>

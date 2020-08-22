@@ -52,7 +52,10 @@ def llenar_valores_vacios(series, tipo):
             promedio = suma / numero_valores
             series_valores_llenos = series.fillna(promedio)
             return series_valores_llenos
-        #if(tipo == 'mas_repetido' ):
+        if(tipo == 'mas_repetido' ):
+            mas_repetido = series.value_counts().idmax()
+            series_valores_llenos = series.fillna(mas_repetido)
+            return series_valores_llenos
         
 def transformar_df(df):
     df_artist = df.groupby('artist')
